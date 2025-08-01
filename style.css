@@ -13,7 +13,6 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: grey;
-
 }
 
 a {
@@ -23,6 +22,8 @@ a {
 
 img {
     width: 30px;
+    border-radius: 100%;
+    background-color: blue;
 }
 
 .topbar{
@@ -33,28 +34,59 @@ img {
 .intro {
     display: flex;
     justify-content: space-between;
-    background-color: red;
+    background-color: black;
     margin: 5px;
     border-radius: 10px;
     
 }
 
 .intro_text {
+    border: 5px white  bold;
+    margin: 80px;
     font-size: 100%;
-    padding: 100px;
+    text-align: center;
+    /* padding: 100px; */
 }
 
 #intro_img {
+    
     margin-left: 25px;
     padding: 15px;
-    width: 80%;
+    width: 300px;
     /* height: 90%; */
 }
 
 h1 {
     font-size: 25px;
+    color: lightgreen;
 }
 
 h2 {
     font-size: 15px;
+}
+
+.link {
+    width: 100%;
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    margin: 5px;
+    padding: 0px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#shows {
+    justify-content: space-around;
+}
+
+
+
+.thumbnail {
+    border-radius: 0%;
+    width: 70%;
 }
